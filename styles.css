@@ -1,0 +1,42 @@
+/* Chat container */
+.container {
+  border: 2px solid #dedede;
+  background-color: #f1f1f1;
+  border-radius: 5px;
+  padding: 10px;
+  margin: 10px 0;
+  overflow: auto; /* Enable scrolling for container */
+}
+
+/* User message */
+.user {
+  background-color: #4CAF50;
+  color: white;
+  border-radius: 5px;
+  padding: 10px;
+  margin: 10px 0;
+  display: inline-block;
+  clear: both;
+  float: left; /* Align user messages to the left */
+}
+
+/* Chatbot message */
+.chatbot {
+  background-color: #008CBA;
+  color: white;
+  border-radius: 5px;
+  padding: 10px;
+  margin: 10px 0;
+  display: inline-block;
+  float: right; /* Align chatbot messages to the right */
+}
+
+/* Bottom input bar */
+.bottom-bar {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background-color: #f1f1f1;
+  padding: 10px;
+  border-top: 2px solid #dedede;
+}
